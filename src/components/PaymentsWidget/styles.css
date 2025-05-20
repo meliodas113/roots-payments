@@ -1,0 +1,74 @@
+.PaymentsWidgetWrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PaymentsWidgetWrapper > .HeadingWrapper {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PaymentsWidgetWrapper > .HeadingWrapper > .BankLabel {
+  width: fit-content;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+}
+
+.PaymentsWidgetWrapper > .HeadingWrapper > .BankLabel > .Status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #21c45c;
+}
+
+.PaymentsWidgetWrapper > .HeadingWrapper > .BankLabel > .BankName {
+  font-size: 14px;
+  color: rgb(125, 124, 124);
+  font-weight: bold;
+}
+
+.PaymentsWidgetWrapper > .HeroSection {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PaymentsWidgetWrapper > .HeroSection > .HeroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.PaymentsWidgetWrapper > .HeroSection > .HeroContent > .Heading {
+  color: #0f162a;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.PaymentsWidgetWrapper > .HeroSection > .HeroContent > .SubHeading {
+  color: rgb(148, 148, 148);
+  font-size: 16px;
+}
+
+.PaymentsWidgetWrapper > .TableSection {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+}
