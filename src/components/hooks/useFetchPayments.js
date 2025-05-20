@@ -14,8 +14,7 @@ export const useFetchPayments = () => {
           {
             method: "GET",
             headers: {
-              "x-api-key":
-                "PMAK-68029b1593992d0001e3b2a1-cc4be6ff131c3cc39e34ca55cb64b2a1c5",
+              "x-api-key": "",
             },
           }
         );
